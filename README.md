@@ -19,3 +19,5 @@ This data file includes monthly mobile page requests for each article. It involv
 This data file includes monthly desktop page requests for each article. It involves an article field with the name of the article, a timestamp field with year and month, and a views field that represents the total monthly views for each article.
 ### academy_monthly_cumulative_201507-202309.json
 This data file includes monthly cumulative page requests for each article. It involves an article field with the name of the article, a timestamp field with year and month, and a views field that represents the total monthly views for each article.
+## Special Considerations
+A forward slash in article titles will cause and error with the urllib function in the API call. This can be fixed by setting safe=''.
