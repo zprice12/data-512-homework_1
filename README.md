@@ -12,4 +12,10 @@ Pageviews API Documentation -
 https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
 ## Data Files
 ### thank_the_academy.AUG.2023.csv
-This is data
+This data file includes the articles we wish to investigate in this project. It includes a name field with the name of the article and a url field with a url to each article.
+### academy_monthly_mobile_201507-202309.json
+This data file includes monthly mobile page requests for each article. It involves an article field with the name of the article, a timestamp field with year and month, and a views field that represents the total monthly views for each article.
+### academy_monthly_desktop_201507-202309.json
+This data file includes monthly desktop page requests for each article. It involves an article field with the name of the article, a timestamp field with year and month, and a views field that represents the total monthly views for each article.
+### academy_monthly_cumulative_201507-202309.json
+This data file includes monthly cumulative page requests for each article. It involves an article field with the name of the article, a timestamp field with year and month, and a views field that represents the total monthly views for each article.
