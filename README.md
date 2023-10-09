@@ -1,2 +1,2 @@
-# data-512-homework_1
-## cow
+# Data 512 - Homework 1
+## Project Goal
